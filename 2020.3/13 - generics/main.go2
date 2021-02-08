@@ -1,0 +1,48 @@
+// Step 0. You need to use a correct Go SDK with generics support.
+// 		   For details see:
+//		   https://blog.jetbrains.com/go/2020/11/24/experimenting-with-go-type-parameters-generics-in-goland/
+
+package main
+
+import "fmt"
+
+type Book struct {
+	Name  string
+	Price int
+}
+
+func (x Book) Less(y Book) bool {
+	return y.Price < x.Price
+}
+
+// Step 1. If you have an error below, activate
+// 		   Settings/Preferences | Go | Enable generics (experimental support for type parameters)
+//		   At the moment "any" keyword is not yet recognized.
+// Step 2. Use the go2go tool to build this package (you can safely ignore the main.go file)
+// Step 3. Open the Terminal and run the built binary
+type Lesser[T any] interface {
+	Less(y T) bool
+}
+
+func doSort[T Lesser[T]](a []T) {
+	for i := 0; i < len(a)-1; i++ {
+		for j := i; j < len(a); j++ {
+			if a[i].Less(a[j]) {
+				a[i], a[j] = a[j], a[i]
+			}
+		}
+	}
+}
+
+func main() {
+	a := []Book{
+		{"Second Book", 2},
+		{"First Book", 1},
+		{"Fifth Book", 5},
+		{"Fourth Book", 4},
+		{"Sixth Book", 6},
+		{"Third Book", 3},
+	}
+	doSort(a)
+	fmt.Println(a)
+}
