@@ -1,6 +1,6 @@
 # What's New in GoLand
 
-This is an ever growing list of changes in GoLand.
+This is an ever-growing list of changes in GoLand.
 
 You can use this repository to interact with them
 straight from the comfort of your IDE.
@@ -11,6 +11,7 @@ life features and boost your productivity while using it.
 ## Product versions
 
 - [2020.3](./2020.3/Readme.md)
+- [2021.1](./2021.1/Readme.md)
 
 ## Contributions
 

@@ -1,4 +1,4 @@
-module github.com/dlsniper/dockerdemo
+module wnig20203/kubernetes
 
 go 1.11
 
