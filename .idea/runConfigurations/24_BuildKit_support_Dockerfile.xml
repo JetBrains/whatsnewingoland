@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="24-BuildKit-support/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="imageTag" value="buildkit:demo" />
+        <option name="buildKitEnabled" value="true" />
+        <option name="containerName" value="buildkit-demo" />
+        <option name="sourceFilePath" value="2021.1/24-BuildKit-support/Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>

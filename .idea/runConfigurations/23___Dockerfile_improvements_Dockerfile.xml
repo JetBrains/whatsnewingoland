@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="23 - Dockerfile improvements/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <deployment type="dockerfile">
+      <settings>
+        <option name="imageTag" value="docker:improvements" />
+        <option name="containerName" value="docker-improvements" />
+        <option name="sourceFilePath" value="2021.1/23 - Dockerfile improvements/Dockerfile" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
