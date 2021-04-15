@@ -10,7 +10,7 @@ import (
 // 		   Preferences/Settings | Editor | Code Style | Go | Imports
 // 		   and enable "Import grouping".
 // 		   Then you can specify which imports should be grouped into separate blocks.
-// E.g. you can specify the loc.al package 
+// E.g. you can specify the loc.al package
 
 // Step 2. Unfold the imports above.
 
@@ -19,11 +19,11 @@ func main() {
 	// Shortcut: Ctrl + / on Windows/Linux
 	//			 Cmd + / on macOS
 
-	//now := time.Now()
-	//_ = fmt.Sprintf("Now it's %v\n", now)
+	/*now := time.Now()
+	_ = fmt.Sprintf("Now it's %v\n", now)*/
 
-	//err := errors.New("this comes from pkg/errors not errors")
-	//log.Println(err)
+	/*err := errors.New("this comes from pkg/errors not errors")
+	log.Println(err)*/
 }
 
 func _() {
