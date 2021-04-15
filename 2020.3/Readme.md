@@ -20,6 +20,11 @@ for the convenience of showing the feature itself.
 - [Grazie Plugin](#grazie-plugin)
 - [Code With Me](#code-with-me)
 
+If you want, you can watch a recording of the presentation based on
+this content:
+
+[![Discover the New Productivity Features of GoLand 2020.3](https://img.youtube.com/vi/GumVwef1LhQ/0.jpg)](https://www.youtube.com/watch?v=GumVwef1LhQ "Discover the New Productivity Features of GoLand 2020.3")
+
 ## Go 1.16 support
 
 01. Support for new `GOOS` and `GOARCH` environment variables.

@@ -1,0 +1,9 @@
+# Step 0. Run the app in main.go file, if you haven't already.
+# Step 2. Run this request and see that you can now fold the results.
+# Step 3. Use the new copy to clipboard button to get the response
+#         copied to the clipboard.
+GET http://localhost:38000
+
+### Step 4. Observe the inspection to convert to an HTTPS request
+GET http://httpbin.org/ip
+Accept: application/json

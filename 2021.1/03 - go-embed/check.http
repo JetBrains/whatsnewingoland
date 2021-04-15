@@ -1,0 +1,5 @@
+### Check our index via the HandlerFunc call
+GET http://localhost:8088/
+
+### Check our index via the https.FS() call
+GET http://localhost:8088/templates/index.html
