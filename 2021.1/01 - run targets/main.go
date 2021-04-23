@@ -36,7 +36,7 @@ func inDocker() string {
 		result = "outside"
 	}
 
-	return fmt.Sprintf("I'm running running %s a Docker container.", result)
+	return fmt.Sprintf("I'm running %s a Docker container.", result)
 }
 
 func inWSL() string {

@@ -15,8 +15,6 @@ ENV GOPATH /go
 
 ENV PATH $PATH:/go/bin:$GOPATH/bin
 
-RUN go version
-
 EXPOSE 38000
 
 # TODO: Add other dependencies and stuff here
