@@ -214,8 +214,6 @@ this content:
 32. You can configure the ESLint scope via 
     [Settings/Preferences | Languages & Frameworks | JavaScript | Code Quality Tools | ESLint](jetbrains://GoLand/settings?name=Languages+%26+Frameworks--JavaScript--Code+Quality+Tools--ESLint).
 
-https://blog.jetbrains.com/webstorm/2021/02/webstorm-2021-1-eap-2/
-
 33. JSDoc syntax highlighting has been improved.
     
     You can find new options for changing the color scheme for JSDoc elements,
