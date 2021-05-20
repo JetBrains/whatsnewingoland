@@ -6,11 +6,11 @@ package main
 //           ⌥ + Enter on macOS
 
 type Demo struct {
-	Field1 *struct {
-		Field3 int
-	}
+	Field1 int
 	Field2 string
-	Field3 bool
+	Field3 *struct {
+		SubField1 int
+	}
 }
 
 func _() {
