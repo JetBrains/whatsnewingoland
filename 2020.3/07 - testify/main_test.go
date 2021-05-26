@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 	"testing"
 )
@@ -17,8 +18,8 @@ type MySecondSuite struct {
 
 func TestFirstSuite(t *testing.T) {
 	// Step 1. Type "Run" and select suite.Run from the list
-	// Step 2. Continue typing new(First) to get to new(MyFirstSuite)
-	suite.Run(t, new(MyFirstSuite))
+	// Step 2. Continue typing &MyF to get &MyFirstSuite{}
+	suite.Run(t, &MyFirstSuite{})
 }
 
 func TestSecondSuite(t *testing.T) {
@@ -49,5 +50,5 @@ func (s *MySecondSuite) TestSubTests() {
 
 func (s *MySecondSuite) TestSecondTest() {
 	// Step 6. Type assert.Equal(s.T(), "Hello!", "Hello!")
-
+	assert.Equal(s.T(), "Hello!", "Hello!")
 }

@@ -1,4 +1,4 @@
-module wnig20203/kubernetes
+module wni20203/kubernetes
 
 go 1.11
 

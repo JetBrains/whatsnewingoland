@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MONGO" family-id="MONGO" format-version="4.23">
+    <root id="1">
+      <ServerVersion>4.4.7</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="admin"/>
+    <schema id="3" parent="1" name="config"/>
+    <schema id="4" parent="1" name="jetbrains"/>
+    <schema id="5" parent="1" name="local"/>
+    <table id="6" parent="4" name="ides"/>
+    <column id="7" parent="6" name="_id">
+      <Position>1</Position>
+      <DataType>ObjectId|12s</DataType>
+    </column>
+    <column id="8" parent="6" name="focus">
+      <Position>2</Position>
+      <DataType>String|12s</DataType>
+    </column>
+    <column id="9" parent="6" name="name">
+      <Position>3</Position>
+      <DataType>String|12s</DataType>
+    </column>
+  </database-model>
+</dataSource>

@@ -55,12 +55,13 @@ this content:
 ## Go Inspections
 
 08. The `Incorrect usages of Println/Printf-like functions` inspection 
-    was extended to support the following packages:
-    - github.com/pkg/errors
-    - github.com/sirupsen/logrus
-    - go.uber.org/zap
+   was extended to support the following packages:
+   - github.com/pkg/errors
+   - github.com/sirupsen/logrus
+   - go.uber.org/zap
     
-    [Demo](08%20-%20extended%20printf%20inspection/main.go)
+   [Demo](08%20-%20extended%20printf%20inspection/main.go)
+ 
 09. A new inspection scans for `context.CancelFunc`, and similar, calls
     and reports potential issues from paths not calling the "cancel" function.
     [Demo](09%20-%20context%20cancel/main.go)

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="WSL - Ubuntu-20.04" type="wsl">
+        <config>
+          <option name="distributionMsId" value="Ubuntu-20.04" />
+          <option name="projectRootOnTarget" value="/mnt/c/Users/Florin/AppData/Local/JetBrains/Toolbox/apps/Goland/ch-1/211.7142.13/jbr/bin&#10;/wnig" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/florin/go" />
+            <option name="goRoot" value="/home/florin/go-sdks/go1.16/bin/go" />
+            <option name="goVersion" value="go1.16.3 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
