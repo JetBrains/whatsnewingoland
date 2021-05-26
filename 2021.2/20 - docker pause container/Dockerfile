@@ -1,0 +1,7 @@
+FROM postgres:12.7-alpine
+
+EXPOSE 5432
+
+ENV POSTGRES_DB="goland"
+ENV POSTGRES_USER="goland"
+ENV POSTGRES_PASSWORD="goland"

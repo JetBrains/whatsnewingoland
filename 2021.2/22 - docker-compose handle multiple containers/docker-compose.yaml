@@ -10,5 +10,3 @@ services:
       POSTGRES_USER: goland
       POSTGRES_PASSWORD: goland
       POSTGRES_DB: goland
-    volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql

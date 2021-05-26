@@ -12,6 +12,7 @@ life features and boost your productivity while using it.
 
 - [2020.3](./2020.3/Readme.md)
 - [2021.1](./2021.1/Readme.md)
+- [2021.2](./2021.2/Readme.md)
 
 ## Contributions
 

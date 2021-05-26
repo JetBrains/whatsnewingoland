@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Step 1. Observe the warning in Errorf missing %s
-	err := errors.Errorf("Hello %s!", "World")
+	err := errors.Errorf("Hello!", "World")
 
 	// Step 2. Observe the warning in Infof missing %s
 	logrus.WithError(err).Infof("Hello!", "World")

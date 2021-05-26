@@ -1,0 +1,17 @@
+version: "3.5"
+services:
+  mytest1:
+    build:
+      context: .
+      shm_size: 1024
+    shm_size: 1024
+  mytest2:
+    build:
+      context: .
+      shm_size: '2tb'
+    shm_size: '2tb'
+  mytest3:
+    build:
+      context: .
+      shm_size: 'all the shm'
+    shm_size: 'whole shm'

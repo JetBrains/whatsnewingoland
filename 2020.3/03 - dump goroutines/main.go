@@ -13,7 +13,7 @@ import (
 )
 
 // Step 1. Run this in the debugger.
-// Step 2. Check the 📷 button on the left side of the Debugger Tool Window.
+// Step 2. Press the 📷 button on the left side of the Debugger Tool Window.
 // Step 3. You can group goroutines, or hide them or their groups.
 // Step 4. You can search for a specific string in the goroutine list.
 

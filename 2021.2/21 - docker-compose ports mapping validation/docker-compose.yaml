@@ -1,0 +1,22 @@
+version: "3.5"
+
+services:
+  db:
+    container_name: dockerdev-db
+    image: postgres:12.3-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: goland
+      POSTGRES_PASSWORD: goland
+      POSTGRES_DB: goland
+  nginx:
+    container_name: dockerdev-nginx
+    image: nginx:1.17.10-alpine
+    ports:
+      - 6543/all:6543
+  redis:
+    container_name: dockerdev-redis
+    image: redis:2.8.23
+    ports:
+      - "ssh"

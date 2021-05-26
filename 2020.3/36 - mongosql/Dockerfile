@@ -1,4 +1,4 @@
-FROM mongo:4.4.3-bionic
+FROM mongo:4.4.7-focal
 
 ENV MONGO_INITDB_ROOT_USERNAME=goland
 ENV MONGO_INITDB_ROOT_PASSWORD=goland
