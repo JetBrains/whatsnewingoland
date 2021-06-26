@@ -10,6 +10,4 @@ var _ = `{ "title": "Copy This!",
 //		   paste them in a blank space at the top of the file.
 // Shortcut: 🤔
 
-func _() {
-	_ = Demo{}
-}
+var _ = Demo{}
